@@ -1,0 +1,99 @@
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family:"Mont", sans-serif
+}
+code,
+pre {
+ -moz-osx-font-smoothing:auto;
+ -webkit-font-smoothing:auto;
+ font-family:monospace
+}
+
+html {
+  background-color:white;
+  font-size:16px;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  min-width:300px;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  text-rendering:optimizeLegibility;
+  -webkit-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  text-size-adjust:100%
+ }
+ article,
+ aside,
+ figure,
+ footer,
+ header,
+ hgroup,
+ section {
+  display:block
+ }
+
+ html {
+  height: 100%;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  font-size: 12px
+}
+
+@media screen and (min-width: 769px),
+print {
+  html {
+    font-size: 14px
+  }
+}
+
+@media screen and (min-width: 1088px) {
+  html {
+    font-size: 16px
+  }
+}
+
+/* Regular 600 */
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 600;
+  text-rendering: optimizeLegibility;
+}
+
+/* SemiBold 700 */
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-SemiBold.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-SemiBold.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* Heavy 800 */
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-Bold.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Bold.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 800;
+  text-rendering: optimizeLegibility;
+}
+
+/* Heavy 900 */
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Mont/Mont-Heavy.woff2') format('woff2'), /* Modern Browsers */
+       url('../fonts/Mont/Mont-Heavy.otf') format('opentype'); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: 900;
+  text-rendering: optimizeLegibility;
+}
+
