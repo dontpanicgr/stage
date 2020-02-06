@@ -34,23 +34,25 @@
             <p> {{ $t("p-about.content-p7") }}</p>
             <p> {{ $t("p-about.content-p8") }}</p>
             <p> {{ $t("p-about.content-p9") }}</p>
-
           </div>
         </div>
       </div>
     </div>
   </section>
+    <SectionCenter/>
 </layout-default>
 </template>
 
 <script>
 import SectionFeatures2 from '@/components/SectionFeatures2.vue'
+import SectionCenter from '@/components/SectionCenter.vue'
 import LayoutDefault from '@/layouts/LayoutDefault.vue'
 
 export default {
   name: 'About',
   components: {
     SectionFeatures2,
+    SectionCenter,
     LayoutDefault
   }
 }
