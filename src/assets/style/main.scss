@@ -976,7 +976,7 @@
   }
   
   .has-text-dark {
-    color: #131010 !important
+    color: #1d1426 !important
   }
   
   a.has-text-dark:hover,
@@ -985,7 +985,7 @@
   }
   
   .has-background-dark {
-    background-color: #131010 !important
+    background-color: #1d1426 !important
   }
   
   .has-text-primary {
@@ -1083,11 +1083,11 @@
   }
   
   .has-text-grey-darker {
-    color: #131010 !important
+    color: #1d1426 !important
   }
   
   .has-background-grey-darker {
-    background-color: #131010 !important
+    background-color: #1d1426 !important
   }
   
   .has-text-grey-dark {
@@ -1625,7 +1625,7 @@
     background-color: white;
     border-color: #dbdbdb;
     border-width: 1px;
-    color: #131010;
+    color: #1d1426;
     cursor: pointer;
     -ms-flex-pack: center;
     justify-content: center;
@@ -1673,7 +1673,7 @@
   .button:focus,
   .button.is-focused {
     border-color: #3273dc;
-    color: #131010
+    color: #1d1426
   }
   
   .button:focus:not(:active),
@@ -1684,7 +1684,7 @@
   .button:active,
   .button.is-active {
     border-color: #4a4a4a;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-text {
@@ -1917,20 +1917,20 @@
   .button.is-light {
     background-color: whitesmoke;
     border-color: transparent;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-light:hover,
   .button.is-light.is-hovered {
     background-color: #eeeeee;
     border-color: transparent;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-light:focus,
   .button.is-light.is-focused {
     border-color: transparent;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-light:focus:not(:active),
@@ -1942,7 +1942,7 @@
   .button.is-light.is-active {
     background-color: #e8e8e8;
     border-color: transparent;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-light[disabled] {
@@ -1952,7 +1952,7 @@
   }
   
   .button.is-light.is-inverted {
-    background-color: #131010;
+    background-color: #1d1426;
     color: whitesmoke
   }
   
@@ -1961,14 +1961,14 @@
   }
   
   .button.is-light.is-inverted[disabled] {
-    background-color: #131010;
+    background-color: #1d1426;
     border-color: transparent;
     box-shadow: none;
     color: whitesmoke
   }
   
   .button.is-light.is-loading::after {
-    border-color: transparent transparent #131010 #131010 !important
+    border-color: transparent transparent #1d1426 #1d1426 !important
   }
   
   .button.is-light.is-outlined {
@@ -1981,7 +1981,7 @@
   .button.is-light.is-outlined:focus {
     background-color: whitesmoke;
     border-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-light.is-outlined.is-loading::after {
@@ -1997,25 +1997,25 @@
   
   .button.is-light.is-inverted.is-outlined {
     background-color: transparent;
-    border-color: #131010;
-    color: #131010
+    border-color: #1d1426;
+    color: #1d1426
   }
   
   .button.is-light.is-inverted.is-outlined:hover,
   .button.is-light.is-inverted.is-outlined:focus {
-    background-color: #131010;
+    background-color: #1d1426;
     color: whitesmoke
   }
   
   .button.is-light.is-inverted.is-outlined[disabled] {
     background-color: transparent;
-    border-color: #131010;
+    border-color: #1d1426;
     box-shadow: none;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-dark {
-    background-color: #131010;
+    background-color: #1d1426;
     border-color: transparent;
     color: whitesmoke
   }
@@ -2046,14 +2046,14 @@
   }
   
   .button.is-dark[disabled] {
-    background-color: #131010;
+    background-color: #1d1426;
     border-color: transparent;
     box-shadow: none
   }
   
   .button.is-dark.is-inverted {
     background-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-dark.is-inverted:hover {
@@ -2064,7 +2064,7 @@
     background-color: whitesmoke;
     border-color: transparent;
     box-shadow: none;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-dark.is-loading::after {
@@ -2073,26 +2073,40 @@
   
   .button.is-dark.is-outlined {
     background-color: transparent;
-    border-color: #131010;
-    color: #131010
+    border-color: #1d1426;
+    color: #1d1426
+  }
+
+  .button.is-dark.is-transparent {
+    background-color: #1d142642;
+    border-color: transparent;
+    color: whitesmoke;
+    
+  }
+  
+  .button.is-dark.is-transparent:hover,
+  .button.is-dark.is-transparent:focus {
+    background-color: #1d142679;
+    border-color: transparent;
+    color: whitesmoke
   }
   
   .button.is-dark.is-outlined:hover,
   .button.is-dark.is-outlined:focus {
-    background-color: #131010;
-    border-color: #131010;
+    background-color: #1d1426;
+    border-color: #1d1426;
     color: whitesmoke
   }
   
   .button.is-dark.is-outlined.is-loading::after {
-    border-color: transparent transparent #131010 #131010 !important
+    border-color: transparent transparent #1d1426 #1d1426 !important
   }
   
   .button.is-dark.is-outlined[disabled] {
     background-color: transparent;
-    border-color: #131010;
+    border-color: #1d1426;
     box-shadow: none;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-dark.is-inverted.is-outlined {
@@ -2104,7 +2118,7 @@
   .button.is-dark.is-inverted.is-outlined:hover,
   .button.is-dark.is-inverted.is-outlined:focus {
     background-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .button.is-dark.is-inverted.is-outlined[disabled] {
@@ -3202,7 +3216,7 @@
   
   .input.is-dark,
   .textarea.is-dark {
-    border-color: #131010
+    border-color: #1d1426
   }
   
   .input.is-dark:focus,
@@ -3427,7 +3441,7 @@
   .select select {
     background-color: white;
     border-color: #8E51C7;
-    color: #131010;
+    color: #1d1426;
     cursor: pointer;
     display: block;
     font-size: 1.125em;
@@ -3510,7 +3524,7 @@
   }
   
   .select:not(.is-multiple):not(.is-loading):hover::after {
-    border-color: #131010
+    border-color: #1d1426
   }
   
   .select.is-white:not(:hover)::after {
@@ -3574,11 +3588,11 @@
   }
   
   .select.is-dark:not(:hover)::after {
-    border-color: #131010
+    border-color: #1d1426
   }
   
   .select.is-dark select {
-    border-color: #131010
+    border-color: #1d1426
   }
   
   .select.is-dark select:hover,
@@ -3825,32 +3839,32 @@
   .file.is-light .file-cta {
     background-color: whitesmoke;
     border-color: transparent;
-    color: #131010
+    color: #1d1426
   }
   
   .file.is-light:hover .file-cta,
   .file.is-light.is-hovered .file-cta {
     background-color: #eeeeee;
     border-color: transparent;
-    color: #131010
+    color: #1d1426
   }
   
   .file.is-light:focus .file-cta,
   .file.is-light.is-focused .file-cta {
     border-color: transparent;
     box-shadow: 0 0 0.5em rgba(245, 245, 245, 0.25);
-    color: #131010
+    color: #1d1426
   }
   
   .file.is-light:active .file-cta,
   .file.is-light.is-active .file-cta {
     background-color: #e8e8e8;
     border-color: transparent;
-    color: #131010
+    color: #1d1426
   }
   
   .file.is-dark .file-cta {
-    background-color: #131010;
+    background-color: #1d1426;
     border-color: transparent;
     color: whitesmoke
   }
@@ -4167,7 +4181,7 @@
   
   .file-label:hover .file-cta {
     background-color: #eeeeee;
-    color: #131010
+    color: #1d1426
   }
   
   .file-label:hover .file-name {
@@ -4176,7 +4190,7 @@
   
   .file-label:active .file-cta {
     background-color: #e8e8e8;
-    color: #131010
+    color: #1d1426
   }
   
   .file-label:active .file-name {
@@ -4276,7 +4290,7 @@
   }
   
   .help.is-dark {
-    color: #131010
+    color: #1d1426
   }
   
   .help.is-primary {
@@ -4868,11 +4882,11 @@
   
   .notification.is-light {
     background-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .notification.is-dark {
-    background-color: #131010;
+    background-color: #1d1426;
     color: whitesmoke
   }
   
@@ -4972,15 +4986,15 @@
   }
   
   .progress.is-dark::-webkit-progress-value {
-    background-color: #131010
+    background-color: #1d1426
   }
   
   .progress.is-dark::-moz-progress-bar {
-    background-color: #131010
+    background-color: #1d1426
   }
   
   .progress.is-dark::-ms-fill {
-    background-color: #131010
+    background-color: #1d1426
   }
   
   .progress.is-primary::-webkit-progress-value {
@@ -5069,7 +5083,7 @@
   
   .table {
     background-color: white;
-    color: #131010
+    color: #1d1426
   }
   
   .table td,
@@ -5098,13 +5112,13 @@
   .table th.is-light {
     background-color: whitesmoke;
     border-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .table td.is-dark,
   .table th.is-dark {
-    background-color: #131010;
-    border-color: #131010;
+    background-color: #1d1426;
+    border-color: #1d1426;
     color: whitesmoke
   }
   
@@ -5344,11 +5358,11 @@
   
   .tag:not(body).is-light {
     background-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .tag:not(body).is-dark {
-    background-color: #131010;
+    background-color: #1d1426;
     color: whitesmoke
   }
   
@@ -5534,11 +5548,12 @@
     color: #998DA0;
     font-size: 1.25rem;
     font-weight: 600;
-    line-height: 1.25
+    line-height: 1.25;
+    opacity:.8
   }
   
   .subtitle strong {
-    color: #131010;
+    color: #1d1426;
     font-weight: 500
   }
   
@@ -6124,12 +6139,12 @@
   
   .menu-list a:hover {
     background-color: #FBFBFD;
-    color: #131010
+    color: #1d1426
   }
   
   .menu-list a.is-active {
     background-color: #FBFBFD;
-    color: #131010
+    color: #1d1426
   }
   
   .menu-list li ul {
@@ -6217,7 +6232,7 @@
   
   .message.is-light .message-header {
     background-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .message.is-light .message-body {
@@ -6230,12 +6245,12 @@
   }
   
   .message.is-dark .message-header {
-    background-color: #131010;
+    background-color: #1d1426;
     color: whitesmoke
   }
   
   .message.is-dark .message-body {
-    border-color: #131010;
+    border-color: #1d1426;
     color: #2a2a2a
   }
   
@@ -6610,12 +6625,12 @@
   
   .navbar.is-light {
     background-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .navbar.is-light .navbar-brand>.navbar-item,
   .navbar.is-light .navbar-brand .navbar-link {
-    color: #131010
+    color: #1d1426
   }
   
   .navbar.is-light .navbar-brand>a.navbar-item:hover,
@@ -6623,11 +6638,11 @@
   .navbar.is-light .navbar-brand .navbar-link:hover,
   .navbar.is-light .navbar-brand .navbar-link.is-active {
     background-color: #e8e8e8;
-    color: #131010
+    color: #1d1426
   }
   
   .navbar.is-light .navbar-brand .navbar-link::after {
-    border-color: #131010
+    border-color: #1d1426
   }
   
   @media screen and (min-width: 1088px) {
@@ -6636,7 +6651,7 @@
     .navbar.is-light .navbar-start .navbar-link,
     .navbar.is-light .navbar-end>.navbar-item,
     .navbar.is-light .navbar-end .navbar-link {
-      color: #131010
+      color: #1d1426
     }
   
     .navbar.is-light .navbar-start>a.navbar-item:hover,
@@ -6648,28 +6663,28 @@
     .navbar.is-light .navbar-end .navbar-link:hover,
     .navbar.is-light .navbar-end .navbar-link.is-active {
       background-color: #e8e8e8;
-      color: #131010
+      color: #1d1426
     }
   
     .navbar.is-light .navbar-start .navbar-link::after,
     .navbar.is-light .navbar-end .navbar-link::after {
-      border-color: #131010
+      border-color: #1d1426
     }
   
     .navbar.is-light .navbar-item.has-dropdown:hover .navbar-link,
     .navbar.is-light .navbar-item.has-dropdown.is-active .navbar-link {
       background-color: #e8e8e8;
-      color: #131010
+      color: #1d1426
     }
   
     .navbar.is-light .navbar-dropdown a.navbar-item.is-active {
       background-color: whitesmoke;
-      color: #131010
+      color: #1d1426
     }
   }
   
   .navbar.is-dark {
-    background-color: #131010;
+    background-color: #1d1426;
     color: whitesmoke
   }
   
@@ -6723,7 +6738,7 @@
     }
   
     .navbar.is-dark .navbar-dropdown a.navbar-item.is-active {
-      background-color: #131010;
+      background-color: #1d1426;
       color: whitesmoke
     }
   }
@@ -7680,7 +7695,7 @@
   .pagination-next,
   .pagination-link {
     border-color: #dbdbdb;
-    color: #131010;
+    color: #1d1426;
     min-width: 2.25em
   }
   
@@ -7871,7 +7886,7 @@
   
   .panel-tabs a.is-active {
     border-bottom-color: #4a4a4a;
-    color: #131010
+    color: #1d1426
   }
   
   .panel-list a {
@@ -7912,7 +7927,7 @@
   
   .panel-block.is-active {
     border-left-color: #998DA0;
-    color: #131010
+    color: #1d1426
   }
   
   .panel-block.is-active .panel-icon {
@@ -10088,7 +10103,7 @@
   }
   
   .hero.is-black {
-    background-color: #0a0a0a;
+    background-color: #130323;
     color: white
   }
   
@@ -10173,7 +10188,7 @@
   
   .hero.is-light {
     background-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .hero.is-light a:not(.button):not(.dropdown-item):not(.tag),
@@ -10182,7 +10197,7 @@
   }
   
   .hero.is-light .title {
-    color: #131010
+    color: #1d1426
   }
   
   .hero.is-light .subtitle {
@@ -10191,7 +10206,7 @@
   
   .hero.is-light .subtitle a:not(.button),
   .hero.is-light .subtitle strong {
-    color: #131010
+    color: #1d1426
   }
   
   @media screen and (max-width: 1087px) {
@@ -10210,11 +10225,11 @@
   .hero.is-light .navbar-link:hover,
   .hero.is-light .navbar-link.is-active {
     background-color: #e8e8e8;
-    color: #131010
+    color: #1d1426
   }
   
   .hero.is-light .tabs a {
-    color: #131010;
+    color: #1d1426;
     opacity: 0.9
   }
   
@@ -10228,7 +10243,7 @@
   
   .hero.is-light .tabs.is-boxed a,
   .hero.is-light .tabs.is-toggle a {
-    color: #131010
+    color: #1d1426
   }
   
   .hero.is-light .tabs.is-boxed a:hover,
@@ -10240,8 +10255,8 @@
   .hero.is-light .tabs.is-boxed li.is-active a:hover,
   .hero.is-light .tabs.is-toggle li.is-active a,
   .hero.is-light .tabs.is-toggle li.is-active a:hover {
-    background-color: #131010;
-    border-color: #131010;
+    background-color: #1d1426;
+    border-color: #1d1426;
     color: whitesmoke
   }
   
@@ -10256,7 +10271,7 @@
   }
   
   .hero.is-dark {
-    background-color: #131010;
+    background-color: #1d1426;
     color: whitesmoke
   }
   
@@ -10280,7 +10295,7 @@
   
   @media screen and (max-width: 1087px) {
     .hero.is-dark .navbar-menu {
-      background-color: #131010
+      background-color: #1d1426
     }
   }
   
@@ -10326,22 +10341,24 @@
   .hero.is-dark .tabs.is-toggle li.is-active a:hover {
     background-color: whitesmoke;
     border-color: whitesmoke;
-    color: #131010
+    color: #1d1426
   }
   
   .hero.is-dark.is-bold {
-    background-image: linear-gradient(141deg, #1f191a 0%, #131010 71%, #46403f 100%)
+    background-image: linear-gradient(141deg, #1f191a 0%, #1d1426 71%, #46403f 100%)
   }
   
   @media screen and (max-width: 768px) {
     .hero.is-dark.is-bold .navbar-menu {
-      background-image: linear-gradient(141deg, #1f191a 0%, #131010 71%, #46403f 100%)
+      background-image: linear-gradient(141deg, #1f191a 0%, #1d1426 71%, #46403f 100%)
     }
   }
   
   .hero.is-primary {
-    background: linear-gradient(143deg, rgba(115,108,240,1) 0%, rgba(83,83,222,1) 19%, rgba(168,26,195,1) 53%, rgba(255,0,112,1) 100%);
-    color: #fff
+    // background: linear-gradient(143deg, rgba(115,108,240,1) 0%, rgba(83,83,222,1) 19%, rgba(168,26,195,1) 53%, rgba(255,0,112,1) 100%);
+    color: #fff;
+    background: radial-gradient(86.7% 86.7% at 50% -15.72%, #5814C9 0%, #331534 69.85%, #130323 100%);
+
   }
   
   .hero.is-primary a:not(.button):not(.dropdown-item):not(.tag),
@@ -10885,7 +10902,7 @@
   }
   
   .hero.is-fullheight {
-    min-height: 100vh;
+    max-height: 90vh;
     margin-top:-120px;
   }
   
@@ -10963,23 +10980,41 @@
   }
   
   .section {
-    padding: 4rem 3rem
+    padding: 13rem 3rem;
   }
-  
-  @media screen and (min-width: 1088px) {
+  @media screen and (max-width: 768px) {
     .section.is-medium {
       padding: 6rem 3rem
     }
   
-    .section.is-top {
-      padding: 6rem 0 0 0
+    .section.is-small {
+      padding: 3rem 3rem 9rem
     }
   
     .section.is-large {
       padding: 9rem 3rem
     }
     .section.is-xlarge {
-        padding: 15rem 3rem
+        padding: 13rem 3rem
+      }
+  }
+
+  @media screen and (min-width: 1088px) {
+    .section.is-medium {
+      padding: 6rem 3rem
+    }
+    .section.is-small {
+      padding: 3rem 3rem 12rem
+    }
+    .section.is-top {
+      padding: 6rem 3rem 0
+    }
+  
+    .section.is-large {
+      padding: 9rem 3rem
+    }
+    .section.is-xlarge {
+        padding: 13rem 3rem
       }
   }
   
@@ -12795,7 +12830,7 @@
   }
   
   .article-item .article-image.is-fallback {
-    background-image: url("../img/not-found-2.png")
+    background-image: url("../img/not-found.png")
   }
   
   .article-item .article-content {
@@ -12829,7 +12864,7 @@
     display: flex;
     -ms-flex-align: center;
     align-items: center;
-    line-height: 1;
+    line-height: 1.15;
   }
   
   .brand .brand-icon {
@@ -12848,7 +12883,7 @@
   
   .brand .brand-title {
     font-size: 1.25rem;
-    font-weight: 700;
+    font-weight: 800;
     color: #463853;
     transition-duration: 172ms;
     will-change: transform
@@ -12859,7 +12894,7 @@
     font-size: 1.125rem;
     font-weight: normal;
     color: #463853;
-    opacity: .7;
+    opacity: .8;
     transition-duration: 172ms;
     will-change: opacity, transform
   }
@@ -12872,7 +12907,7 @@
   
   .brand-subtitle.is-top {
     color: #fff;
-    opacity: 1;
+    opacity: .8;
     transition-duration: 172ms;
     will-change: opacity, transform
   }
@@ -13022,7 +13057,7 @@
   }
   
   .card.is-usp {
-    max-width: 320px;
+    max-width: 360px;
     margin: 0 auto
   }
   
@@ -13649,7 +13684,7 @@
   }
   
   .section.is-contact .subtitle {
-    max-width: 460px;
+    max-width: 640px;
     margin-left: auto;
     margin-right: auto
   }
@@ -13794,7 +13829,9 @@
   }
   
   .section.is-hero .title {
-    font-size: 3.625rem
+    // font-size: 3.625rem
+    font-size: 4rem;
+    font-weight: 900;
   }
   
   .section.is-hero .section-header {
@@ -14404,12 +14441,12 @@
   
   .menu-list-hor a:hover {
     background-color: #FBFBFD;
-    color: #131010
+    color: #1d1426
   }
   
   .menu-list-hor a.is-active {
     background-color: #FBFBFD;
-    color: #131010
+    color: #1d1426
   }
   
   .menu-list-hor li ul {

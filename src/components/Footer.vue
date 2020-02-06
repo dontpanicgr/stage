@@ -34,10 +34,8 @@
                                     <li>
                     <router-link :to="$i18nRoute({ name: 'about'})">{{ $t("nav.about") }}</router-link>
                   </li>
-                   <li>
-                    <router-link :to="$i18nRoute({ name: 'updates'})">{{ $t("nav.updates") }}<span class="tag is-warning is-micro is-uppercase">{{ $t("common.new") }}</span></router-link>
-                  </li> 
-                                     <li><a href="mailto:email@email.com?subject=%F0%9F%91%8B%20Hello&body=If%20you%20need%20help%20you%20can%20also%20visit%20our%20community%20at%20www.google.com" target="_blank">{{ $t("nav.contact") }}</a></li>
+
+                                     <li><a href=" mailto:hello@stageplus.live?subject=%F0%9F%91%8B%20Hello&body=From%20a%20simple%20hi%20to%20your%20awesome%20new%20idea%2C%20we%20love%20to%20hear%20from%20you!" target="_blank">{{ $t("nav.contact") }}</a></li>
             
                 </ul>
               </div>
@@ -48,13 +46,16 @@
                 <p class="menu-label">{{ $t("nav.category-legal") }}</p>
                 <ul class="menu-list">
                   <li>
-                    <router-link :to="$i18nRoute({ name: 'privacy'})">{{ $t("nav.privacy") }}</router-link>
+                    <!-- <router-link :to="$i18nRoute({ name: 'home'})">{{ $t("nav.privacy") }}</router-link> -->
+                     <a href="#">{{ $t("nav.privacy") }}</a>
                   </li>
                   <li>
-                    <router-link :to="$i18nRoute({ name: 'terms'})">{{ $t("nav.terms") }}</router-link>
+                    <!-- <router-link :to="$i18nRoute({ name: 'home'})">{{ $t("nav.terms") }}</router-link> -->
+                     <a href="#">{{ $t("nav.terms") }}</a>
                   </li>
                                     <li>
-                    <router-link :to="$i18nRoute({ name: 'cookies'})">{{ $t("nav.cookies") }}</router-link>
+                    <!-- <router-link :to="$i18nRoute({ name: 'home'})">{{ $t("nav.cookies") }}</router-link> -->
+                     <a href="#">{{ $t("nav.cookies") }}</a>
                   </li>
                                   </ul>
               </div>
@@ -63,15 +64,16 @@
               <div class="menu">
                 <p class="menu-label">Social</p>
                 <ul class="menu-list">
-              <li>
-                <a href="/external_medium" target="_blank">Twitter ↗</a>
+                                         <li>
+                <a href="https://medium.com/@stagestreaming" target="_blank">Blog ↗</a>
               </li>
               <li>
-                <a href="/external_medium" target="_blank">Instagram ↗</a>
+                <a href="https://twitter.com/stagestreaming" target="_blank">Twitter ↗</a>
               </li>
-                            <li>
-                <a href="/external_medium" target="_blank">Community ↗</a>
+              <li>
+                <a href="https://instagram.com/stagestreaming" target="_blank">Instagram ↗</a>
               </li>
+ 
                 </ul>
               </div>
             </div>

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import Buefy from 'buefy'
-import './plugins/js/index'
+//import './plugins/js/index'
 
 // i18n
 import { i18n } from '@/plugins/i18n'

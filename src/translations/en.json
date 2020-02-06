@@ -1,13 +1,9 @@
 {
-    "guid": "ea3d7938-3a06-4f2d-be70-ca14981fc1dc",
-    "version": "0.1",
-    "encoding": "UTF-8",
-    "updated": "Friday, 29 November 2019 15:30",
     "brand": {
-        "title": "Bedtime Stories",
-        "subtitle": "Exciting tales for young & old",
-        "description": "The storytelling app for families - read diverse & empowering stories or tell them in your own words.",
-        "colophon": "Made by people all over the world. © 2019 Help!"
+        "title": "Stage+",
+        "subtitle": "The home theatre",
+        "description": "Watch highly produced theatre shows directly from your living room, no matter where you are in the world! ",
+        "colophon": "🤟 Made in Greece. © 2020 Stage+"
     },
     "common": {
         "test": "Test",
@@ -37,7 +33,7 @@
         "about": "About",
         "values": "Values",
         "jobs": "Jobs ↗",
-        "contact": "Contact ↗",
+        "contact": "Contact",
         "privacy": "Privacy",
         "terms": "Terms",
         "cookies": "Cookies",
@@ -68,11 +64,11 @@
         "image-text": "Image caption of image"
     },
     "c-hero-home": {
-        "title": "These bedtime 💤 app for families",
-        "subtitle": "Awaken the inner storyteller with diverse and empowering stories for young & old. Storytelling has never been easier.",
-        "btn-primary": "🙌 Get started",
+        "title": "No more missed plays or bad seats!",
+        "subtitle": "Watch all the theatre shows you love or missed directly from your living room.",
+        "btn-primary": "🚀 Start your free month",
         "btn-secondary": "Learn more",
-        "strapline": "Parents' Choice Approved App",
+        "strapline": "*Cancel anytime",
         "image-text": "Image caption of image"
     },
     "c-section-cards": {
@@ -85,23 +81,27 @@
         "btn-primary": "Read now"
     },
     "c-section-center": {
-        "title": "Don't be shy, say hi!",
-        "subtitle": "We might deal with trolls, werewolfs and huge dogs, but we don’t bite.",
-        "btn-primary": "Get in touch"
+        "title": "Do you have something for us?",
+        "subtitle": "We're always open to new partnerships with writers, productions companies, and indie creators.",
+        "btn-primary": "🤘 Suprise us"
+    },
+    "c-showcase": {
+        "title": "Unlimited emotion, laugh and tears",
+        "subtitle": "We find and deliver the best shows for every members of your family and every taste."
     },
     "c-section-features-2": {
-        "title1": "What is it about?",
-        "subtitle1": "Dive into entertaining lessons with fun exercises and learn important storytelling techniques.",
-        "title2": "Who is it for?",
-        "subtitle2": "isten alone or let your family join the fun - create exciting stories together and master the art of storytelling."
+        "title1": "Our vision",
+        "subtitle1": "Stream highly produced theatre productions to every corner of the world so everyone no matter where they are can have access to this cultural event!",
+        "title2": "Why is it important?",
+        "subtitle2": "Theatre is the #1 cultural event that creates more emotion based on recent studies. ...2nd place music, 3rd painting, 4th cinema, 5th dance & literature."
     },
     "c-section-features-3": {
-        "title1": "Quality Family Time",
-        "subtitle1": "Storytelling plays a vital role when growing up. Create lasting memories and embark on fantastic journeys with beloved characters.",
-        "title2": "Teach Valuable Life Lessons",
-        "subtitle2": "We deeply care about diversity and empowerment - each Storyworld contains educational aspects and storytelling tips to teach valuable life lessons.",
-        "title3": "A Safety Net for Storytelling",
-        "subtitle3": "Each bedtime story includes an easy-to-remember summary of Storypoints and the interactive Storybuilder generates millions of exciting storylines."
+        "title1": "Theatre wherever you are",
+        "subtitle1": "No theatres near your area? Do you live abroad? Our service is always open and accessble so you enjoy the shows you love at a click of a button.",
+        "title2": "One ticket for all",
+        "subtitle2": "We all know how expensive theatre can be. Now with a fixed monthly fee you can watch any show you like and cancel at any time - at no cost.",
+        "title3": "Best for children",
+        "subtitle3": "We love children theatre. From musicals, mythology, comedy productions to our beloved shadowplay, you have so many choices for your family."
     },
     "c-section-grid": {
         "title": "We are makers and doers",
@@ -116,9 +116,10 @@
         "card-subtitle4": "Development, iOS "
     },
     "c-section-left-img": {
-        "overtitle": "Course #1",
-        "title": "Story basics",
-        "subtitle": "We're talking about stories quite a lot - but what actually is a story and how is it built? In this course you will learn the most important building blocks of a story, we'll talk about characters, Storypoints and much more. So take a seat and let's begin.",
+        "overtitle": "CONTENT",
+        "title": "Endless access to classics, new releases and more.",
+        "subtitle": "We partnered with major production companies and indiependent writers to bring you the best theatre productions available.",
+        "subtitle2": "n any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.",
         "btn-primary": "🎓 Learn about story basics",
         "left-img-overtitle1": "Topics covered:",
         "left-img-overtitle2": "What is a story?",
@@ -130,16 +131,17 @@
     },
     "c-section-right-img": {
         "overtitle": " Course #2",
-        "title": "How to tell a story",
-        "subtitle": "Storytelling is not only WHAT you tell, but also HOW you tell it. In this course we'll explore different techniques to tell engaging stories.",
-        "list-title": "You'll learn about:",
-        "btn-primary": "🗣 Start telling stories",
-        "list-item1": "Creating a ritual",
-        "list-item2": "Set the scene",
-        "list-item3": "Pacing & flow",
-        "list-item4": "Engage your listener",
-        "list-item5": "Leaving the comfort zone",
-        "text-small": "Learn how to tell exciting stories."
+        "title": "Watch anywhere, anytime, on an unlimited number of devices.",
+        "subtitle": "Sign in with your Stage+ account to watch instantly on the web at stageplus.live from your personal computer or any internet-connected device that offers the Stage app.",
+        "subtitle2": "Watchn any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.",
+        "list-title": "In Stage+ you're able to",
+        "btn-primary": "🗣 Let's go",
+        "list-item1": "Browse shows by genre.",
+        "list-item2": "Watch with subtitles",
+        "list-item3": "Save shows to your list",
+        "list-item4": "Create profiles for your family",
+        "list-item5": "Resume watching at any time",
+        "text-small": "Browse shows by genre."
     },
     "c-strip-small": {
         "title": "Explore our Storyworlds",
@@ -167,22 +169,28 @@
         "update": "Last Update: November 14, 2018",
         "content-h1-title": "null",
         "content-h1-subtitle": "null",
-        "content-p1": "By using our website you consent to the collection, processing and use of data as described below. Our website can be visited without registration. This data such as pages called or name of the retrieved file, date and time are stored on the server for statistical purposes, without this data are directly related to your person. Personal data, in particular name, address or e-mail address are collected as far as possible on a voluntary basis. Without your consent, the data will not be passed on to third parties.",
+        "content-p1": "Stage+ is a video streaming service to watch  theatre anywhere, anytime and as many times as you want.",
         "content-h2-title": "Web & Social Media ",
         "content-h2-subtitle": "Contacting Us ",
-        "content-p2": "If you contact us by means of a form on the website or by e-mail, your data will be stored for a period of 12 months in order to process the request and in case of follow-up questions. We will not share this information without your consent. ",
+        "content-p2": "By researching we found out that people have 4 specific problems in terms of why they don't go to theatre so often.",
         "content-h3-title": "null",
-        "content-h3-subtitle": "Cookies",
-        "content-p3": "Our website uses so-called cookies. These are small text files that are stored on your device using the browser and do net present any harm. We use cookies to make our offer user-friendly. Some cookies remain stored on your device until you delete them. They allow us to recognize your browser on your next visit. If you object to this, you can set up your browser so that it informs you about the setting of cookies and you allow this only in individual cases. Disabling cookies may limit the functionality of our website. ",
-        "content-h4-title": "null",
-        "content-h4-subtitle": "null",
-        "content-p4": "By using our website you consent to the collection, processing and use of data as described below. Our website can be visited without registration. This data such as pages called or name of the retrieved file, date and time are stored on the server for statistical purposes, without this data are directly related to your person. Personal data, in particular name, address or e-mail address are collected as far as possible on a voluntary basis. Without your consent, the data will not be passed on to third parties. ",
+        "content-h3-subtitle": "🚂 It is too far away",
+        "content-p3": "Those who don’t live near Athens or live abroad have zero access to Greek theatre shows.  ",
+        "content-h4-title": "💰 It is too expensive",
+        "content-h4-subtitle": "💰 It is too expensive",
+        "content-p4": "The ticket price remains #1 concern. For a family of four it’s more than 60 euros for one show.",
         "content-h5-title": "Web & Social Media ",
-        "content-h5-subtitle": "Contacting Us ",
-        "content-p5": "If you contact us by means of a form on the website or by e-mail, your data will be stored for a period of 12 months in order to process the request and in case of follow-up questions. We will not share this information without your consent.",
-        "content-h6-title": "null",
-        "content-h6-subtitle": "Cookies",
-        "content-p6": "Our website uses so-called cookies. These are small text files that are stored on your device using the browser and do net present any harm. We use cookies to make our offer user-friendly. Some cookies remain stored on your device until you delete them. They allow us to recognize your browser on your next visit. If you object to this, you can set up your browser so that it informs you about the setting of cookies and you allow this only in individual cases. Disabling cookies may limit the functionality of our website. "
+        "content-h5-subtitle": "⌚ They don't have time",
+        "content-p5": "If a show ends, and you missed it, bad luck, there is no possible way to see it again. ",
+        "content-h6-title": "👓 They have bad seats",
+        "content-h6-subtitle": "👓 They have bad seats",
+        "content-p6": "Poor visibility, venue amenities, and audience are common complaints after a show ends. ",
+        "content-h7-title": "Stream theatre to the masses",
+        "content-h7-subtitle": "💰 It is too expensive",
+        "content-p7": "Consuming content nowadays changed a lot. It is chepear easier and faster to click a button and play a movie, a song and now a stage play. ",
+        "content-p8": "This way theatre opens it's doors to a broader audience who don't have time, money to watch every show or unfortunately they never have the chance to go to theatre in their entire life. ",
+        "content-p9": "We don't like this. We want more people to have access to this great cultural product that was born in Greece and educated the world for centruries.",
+        "content-p10": "We don't like this. We want more people to have access to this great cultural product that was born in Greece and educated the world for centruries."
     },
     "p-cookies": {
         "title": "Cookies",
