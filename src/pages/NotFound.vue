@@ -1,6 +1,6 @@
 <template>
 <layout-default>
-  <section class="section hero is-dark is-large">
+  <section class="section hero is-light is-small">
     <div class="container">
       <div class="has-text-centered">
         <div class="columns is-mobile is-centered">
@@ -17,20 +17,6 @@
   </section>
 </layout-default>
 </template>
-<i18n>
-{
-  "en": {
-    "not-found": {
-        "title": "Abraatabra"
-    }
-  },
-  "gr": {
-    "not-found": {
-        "title": "Αντε γεια"
-    }
-  }
-}
-</i18n>
 
 <script>
 import LayoutDefault from '@/layouts/LayoutDefault.vue'

@@ -1,8 +1,8 @@
 {
     "brand": {
         "title": "Stage+",
-        "subtitle": "The home theatre",
-        "description": "Watch highly produced theatre shows directly from your living room, no matter where you are in the world! ",
+        "subtitle": "Your home theatre",
+        "description": "Watch highly produced theatre shows directly from your living room, no matter where you are in the world!",
         "colophon": "🤟 Made in Greece. © 2020 Stage+"
     },
     "common": {
@@ -65,8 +65,8 @@
     },
     "c-hero-home": {
         "title": "No more missed plays or bad seats!",
-        "subtitle": "Watch all the theatre shows you love or missed directly from your living room.",
-        "btn-primary": "🚀 Start your free month",
+        "subtitle": "All the theatre you love is streaming directly in your living room no matter where you are in the world!",
+        "btn-primary": "🚀 Start your free week!",
         "btn-secondary": "Learn more",
         "strapline": "*Cancel anytime",
         "image-text": "Image caption of image"
@@ -86,8 +86,8 @@
         "btn-primary": "🤘 Suprise us"
     },
     "c-showcase": {
-        "title": "Unlimited emotion, laugh and tears",
-        "subtitle": "We find and deliver the best shows for every members of your family and every taste."
+        "title": "Unlimited emotion, laugh and tears.",
+        "subtitle": "We find and deliver the best shows for every taste and mood."
     },
     "c-section-features-2": {
         "title1": "Our vision",
@@ -96,11 +96,11 @@
         "subtitle2": "Theatre is the #1 cultural event that creates more emotion based on recent studies. ...2nd place music, 3rd painting, 4th cinema, 5th dance & literature."
     },
     "c-section-features-3": {
-        "title1": "Theatre wherever you are",
-        "subtitle1": "No theatres near your area? Do you live abroad? Our service is always open and accessble so you enjoy the shows you love at a click of a button.",
-        "title2": "One ticket for all",
+        "title1": "We bring the theatres to you.",
+        "subtitle1": "No theatres near your area? Do you live abroad? Our service is always open and accessible so you enjoy the shows you love at a click of a button.",
+        "title2": "One ticket for everything.",
         "subtitle2": "We all know how expensive theatre can be. Now with a fixed monthly fee you can watch any show you like and cancel at any time - at no cost.",
-        "title3": "Best for children",
+        "title3": "Exclusive shows for children.",
         "subtitle3": "We love children theatre. From musicals, mythology, comedy productions to our beloved shadowplay, you have so many choices for your family."
     },
     "c-section-grid": {
@@ -132,7 +132,7 @@
     "c-section-right-img": {
         "overtitle": " Course #2",
         "title": "Watch anywhere, anytime, on an unlimited number of devices.",
-        "subtitle": "Sign in with your Stage+ account to watch instantly on the web at stageplus.live from your personal computer or any internet-connected device that offers the Stage app.",
+        "subtitle": "Sign in with your Stage+ account to watch instantly on the web from your personal computer or any internet-connected device that offers the Stage+ app.",
         "subtitle2": "Watchn any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.",
         "list-title": "In Stage+ you're able to",
         "btn-primary": "🗣 Let's go",
@@ -243,6 +243,13 @@
         "title": "Page not found",
         "subtitle": "How did you even end up here?",
         "btn-primary": "Bring me back"
+    },
+    "p-join": {
+        "title": "Join the Beta",
+        "subtitle": "We'll graduallly rollout our service to specific number of people. Be the first to know!",
+        "subtitle2": "Be the first to know!",
+        "description": "By clicking the button above, I agree to receive updates, special offers, and other information from Stage+.",
+        "btn-primary": "👍 Keep me updated"
     },
     "p-pricing": {
         "title": "Don't be shy, say hi!",

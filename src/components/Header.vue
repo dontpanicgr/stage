@@ -17,13 +17,13 @@
           <!-- <router-link :to="$i18nRoute({ name: 'features'})" class="navbar-item">{{ $t("nav.features") }}</router-link>
           <router-link :to="$i18nRoute({ name: 'updates'})" class="navbar-item ">{{ $t("nav.updates") }}</router-link> -->
           <!-- <span class="is-invisible">|</span> -->
-          <a href="/login" target="_blank" class="navbar-item button is-primary">{{ $t("nav.go-mobile") }}</a>
+          <a href="#" class="navbar-item button is-primary">{{ $t("nav.go-mobile") }}</a>
         </div>
       </div>
       <!-- Normal Nav -->
       <div class="navbar-menu">
         <div class="navbar-end">
-            <a href="/login" target="_blank" class="button is-primary">{{ $t("nav.go") }}</a>
+            <a href="#" class="button is-primary">{{ $t("nav.go") }}</a>
 
         </div>
       </div>

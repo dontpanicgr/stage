@@ -2629,14 +2629,14 @@
   }
   
   .button.is-danger {
-    background-color: #ff3860;
+    background-color: #E12E1E;
     border-color: transparent;
     color: #fff
   }
   
   .button.is-danger:hover,
   .button.is-danger.is-hovered {
-    background-color: #ff2b56;
+    background-color: #D32B1D;
     border-color: transparent;
     color: #fff
   }
@@ -3088,7 +3088,8 @@
   .textarea {
     background-color: white;
     border-color: #8E51C7;
-    color: #463853;
+    // color: #463853;
+    color: #fff;
     box-shadow: none;
     max-width: 100%;
     width: 100%
@@ -3118,7 +3119,7 @@
   .input.is-hovered,
   .textarea:hover,
   .textarea.is-hovered {
-    border-color: #8847c4
+    // border-color: #8847c4
   }
   
   .input:focus,
@@ -6144,7 +6145,9 @@
   
   .menu-list a.is-active {
     background-color: #FBFBFD;
-    color: #1d1426
+    color: #1d1426;
+    font-weight: 700;
+
   }
   
   .menu-list li ul {
@@ -10358,8 +10361,13 @@
     // background: linear-gradient(143deg, rgba(115,108,240,1) 0%, rgba(83,83,222,1) 19%, rgba(168,26,195,1) 53%, rgba(255,0,112,1) 100%);
     color: #fff;
     background: radial-gradient(86.7% 86.7% at 50% -15.72%, #5814C9 0%, #331534 69.85%, #130323 100%);
-
   }
+
+  .is-desc.is-light {
+    color: #998DA0;
+    font-size: 0.95rem;
+  }
+  
   
   .hero.is-primary a:not(.button):not(.dropdown-item):not(.tag),
   .hero.is-primary strong {
@@ -10371,7 +10379,8 @@
   }
   
   .hero.is-primary .subtitle {
-    color: rgba(255, 255, 255, 0.9)
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.35;
   }
   
   .hero.is-primary .subtitle a:not(.button),
@@ -10902,7 +10911,7 @@
   }
   
   .hero.is-fullheight {
-    max-height: 90vh;
+    max-height: 100vh;
     margin-top:-120px;
   }
   
@@ -13793,7 +13802,10 @@
   
   .section.is-feedback {
     overflow: hidden;
-    padding-bottom: 10rem
+    padding: 1rem 3rem;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .section.is-feedback .container {
@@ -14162,7 +14174,7 @@
   }
   
   .hero.is-primary .input {
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.15);
     border-color: rgba(255, 255, 255, 0)
   }
   

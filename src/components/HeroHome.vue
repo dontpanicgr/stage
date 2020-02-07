@@ -10,7 +10,10 @@
                     <hr class="spacer is-1-5">
 
           <div class="field is-grouped">
-            <div class="control"> <a class="button is-warning is-large" href="/login" target="_blank">{{ $t("c-hero-home.btn-primary") }}</a> </div>
+            <div class="control"> 
+              <router-link class="button is-danger is-large" :to="$i18nRoute({ name: 'join'})">{{ $t("c-hero-home.btn-primary") }}</router-link>
+
+              </div>
           </div>
         </div>
       </div>
