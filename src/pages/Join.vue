@@ -9,16 +9,19 @@
         <h2 class="subtitle is-5"> {{ $t("p-join.subtitle") }}  </h2>
                 <hr class="spacer is-1">
         <div class="section is-feedback">
-        <div class="field">
-          <p class="control">
-            <input class="input is-large" type="email" placeholder="Type your email...">
-          </p>
-        </div>
-        <hr class="spacer is-1">
-        <router-link to="/" class="button is-primary is-large">{{ $t("p-join.btn-primary") }} </router-link>
-        <hr class="spacer is-5">
-        <p class="is-desc is-light">{{ $t("p-join.description") }}</p>
-        </div>
+<form action="https://live.us4.list-manage.com/subscribe/post?u=84dd9cd7e6284087e98ee6f0a&amp;id=701a209283" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div class="field">
+                    <p class="control">
+                    <input type="email" value="" name="EMAIL" class="input is-large email" id="mce-EMAIL" placeholder="Type your email" required>
+                    </p>
+                </div>
+                <hr class="spacer is-1">
+                <input type="submit" value="👍 Yes, keep me updated" name="subscribe" id="mc-embedded-subscribe" class="button is-primary is-large is-fullwidthmobile">
+                         </form>
+                <hr class="spacer is-6">
+        <p class="is-desc is-light"> {{ $t("p-join.description1") }} {{ $t("p-join.description2") }} </p>
+                </div>
+                <hr class="spacer is-4">
       </div>
     </div>
   </section>

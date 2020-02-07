@@ -2654,7 +2654,7 @@
   
   .button.is-danger:active,
   .button.is-danger.is-active {
-    background-color: #ff1f4b;
+    background-color: #D32B1D;
     border-color: transparent;
     color: #fff
   }
@@ -10365,7 +10365,7 @@
 
   .is-desc.is-light {
     color: #998DA0;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
   
   
@@ -12558,6 +12558,13 @@
     font-weight: 700;
     transition-duration: 86ms
   }
+
+  @media screen and (max-width: 768px) {
+    .button {
+      font-size: 1.25rem;
+      height: 3em;
+    }
+  }
   
   .button.has-shadow {
     // box-shadow:0 2px 0 0 #FBFBFD;
@@ -12710,6 +12717,15 @@
     border-width: 2px;
     transition-duration: 86ms
   }
+
+  @media screen and (max-width: 768px) {
+    .input,
+    .textarea {
+      font-size: 1.25rem;
+      height: 3em;
+    }
+  }
+  
   
   .input::-webkit-input-placeholder,
   .textarea::-webkit-input-placeholder {
@@ -13837,6 +13853,17 @@
   @media screen and (max-width: 768px) {
     .section.is-feedback .section-media img {
       max-height: 60px
+    }
+    .section.is-feedback {
+      padding: 1rem 0rem;
+    }
+    .button.is-fullwidthmobile {
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%
+    }
+    input.is-large, .textarea.is-large {
+      font-size: 1.5rem;
     }
   }
   
