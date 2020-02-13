@@ -65,13 +65,16 @@
                 <p class="menu-label">Social</p>
                 <ul class="menu-list">
                                          <li>
-                <a href="https://medium.com/@stagestreaming" target="_blank">Blog ↗</a>
+               <a href="https://medium.com/@stagestreaming" target="_blank"> <base-icon class="hello" name="medium" /> Blog</a>
               </li>
               <li>
-                <a href="https://twitter.com/stagestreaming" target="_blank">Twitter ↗</a>
+                <a href="https://twitter.com/stagestreaming" target="_blank"><base-icon name="twitter" /> Twitter</a>
               </li>
               <li>
-                <a href="https://instagram.com/stagestreaming" target="_blank">Instagram ↗</a>
+                <a href="https://instagram.com/stagestreaming" target="_blank"><base-icon name="instagram" /> Instagram</a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/company/stagestreaming" target="_blank"><base-icon name="linkedin" /> Linkedin</a>
               </li>
  
                 </ul>
