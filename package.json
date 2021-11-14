@@ -1,7 +1,7 @@
 {
-  "name": "website",
+  "name": "Stage",
   "version": "0.1.0",
-  "description": "A Vue.js project",
+  "description": "Stage",
   "author": "Me",
   "private": true,
   "scripts": {
